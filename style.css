@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(13, 13, 40);
+}
+.container {
+  margin-top: 5%;
+  margin-left: 20%;
+  height: 550px;
+  width: 300px;
+}
+.display {
+  margin-top: 90px;
+  background-color: rgb(254, 255, 255);
+  margin: 10px 10px;
+  height: 30px;
+  width: 400px;
+  padding: 5px 5px;
+}
+.display img {
+  width: 25px;
+  height: 25px;
+  margin-top: 0px;
+  margin-left: 50px;
+  margin-right: 10px;
+  float: right;
+  cursor: pointer;
+}
+.btn {
+  background-color: rgb(64, 182, 123);
+  margin: 10px 10px;
+  margin-top: 20px;
+  height: 30px;
+  width: 220px;
+  padding: 5px 5px;
+  border: 1px solid #000000;
+  cursor: pointer;
+}
